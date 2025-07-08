@@ -21,7 +21,7 @@ Thanks for checking out this front-end coding challenge.
 
 ### 📸  Screenshot
 
-![](./screenshot.jpg)
+![](./preview.jpg)
 
 ---
 
