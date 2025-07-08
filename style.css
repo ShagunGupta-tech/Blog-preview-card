@@ -17,6 +17,10 @@ main{
     padding: 1.5rem;
     line-height: 1.4;
 }
+.main:hover{
+    transform: scale(0.9); /* 1.1 means 10% bigger */
+  transition: transform 0.3s ease; 
+}
 .card-layout{
     display: flex;
     flex-direction: column;
@@ -54,13 +58,17 @@ button{
  color:  hsl(47, 88%, 63%);
  transform: scale(1.05);
 }
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+}
 h1{
     font-size: 1rem;
     color: hsl(0, 0%, 7%);;
     font-weight: 800;
 }
 p{
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: hsl(0, 0%, 42%);
 }
 .user{
